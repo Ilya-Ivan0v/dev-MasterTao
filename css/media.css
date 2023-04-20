@@ -1,0 +1,270 @@
+@media (min-width: 1700px) {
+  .first-screen.slick-slide.container {
+    padding: 0 50px;
+  }
+  .slick-prev {
+    left: 75px;
+  }
+  .slick-next {
+    right: 75px;
+  }
+}
+
+@media (max-width: 1359px) {
+  .section-background {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 993px) {
+  .header-container .show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .navbar-collapse {
+    align-items: center;
+    background: #363a4d;
+    padding: 40px 40px 60px;
+    margin: 18px -52px 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  .slider-template {
+    padding: 0 10vw;
+  }
+  .slider-template {
+    padding: 0;
+    max-width: 810px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1359px) {
+  .slider-template .slick-next {
+    right: 25px;
+  }
+  .slider-template .slick-prev {
+    left: 24px;
+  }
+}
+@media (max-width: 1024px) {
+  /* navbar */
+  .nav-link {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 222%;
+    text-align: center;
+    color: var(--color-text);
+  }
+  .contacts .template-title::before {
+    width: 335px;
+    height: 2px;
+  }
+  .contacts-description {
+    display: none;
+  }
+
+  .navbar .button-group {
+    padding: 0;
+  }
+  .navbar .button-group {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* first-screen */
+  .first-screen .container-fluid {
+    padding: 0px;
+  }
+
+  .section-background {
+    max-width: 100%;
+    border-radius: 0;
+  }
+  .first-screen .container-fluid {
+    padding: 0 40px;
+    position: relative;
+  }
+  .first-screen .container-fluid::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #04051199;
+    left: 0;
+    top: 0;
+  }
+  .first-screen .slick-slide {
+    min-height: 650px;
+    border-radius: 0px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .first-screen .slick-slide .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .slick-slide .btn {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 334px;
+  }
+  .slide-title {
+    font-size: 32px;
+    max-width: 100%;
+    text-align: center;
+  }
+  .slide-text {
+    font-size: 16px;
+    max-width: 100%;
+    text-align: center;
+  }
+  .slick-arrow {
+    display: none;
+  }
+  /* calculation*/
+  .calculation .advatages {
+    padding: var(--section-mobile-padding);
+  }
+  .calculation-decoration {
+    display: none;
+  }
+  .calculation-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 124.5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 54px;
+  }
+  .calculation-title::after {
+    margin: 23px auto 0;
+  }
+  .check-box-container {
+    padding: 6px 0 18px 0;
+  }
+  .row {
+    margin: 0 15px;
+  }
+  .calculation-form .col-12 {
+    padding: 0 15px;
+  }
+  .icon {
+    margin: 0 -12px 0 10px;
+  }
+
+  /* slider */
+  .slider-template {
+    padding: 0;
+    max-width: 795px;
+    margin: 0 auto;
+  }
+  .slider-template {
+    padding-bottom: 40px;
+    margin: 0 -15px;
+  }
+  .slider-template .slick-dots {
+    bottom: 0;
+  }
+  .slider-template-item .button-group .btn {
+    font-size: 14px;
+    margin: 0 6px;
+    padding: 14px 4px;
+    min-width: 138px;
+  }
+  .services .container,
+  .dilivery .container {
+    padding: 0;
+  }
+
+  /* about */
+  .about-company-row {
+    flex-direction: column;
+  }
+  .about-company .template-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .container .about-company .template-title::before {
+    margin: 0 auto;
+  }
+
+  .about-company-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149.5%;
+    text-align: justify;
+    color: #ffffff;
+  }
+  .about-company-row img {
+    margin-top: 25px;
+    max-width: 326px;
+    width: 326.11px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 25px;
+  }
+
+  /* cooperation */
+
+  .cooperation-row {
+    flex-direction: column;
+  }
+  .template-title .cooperation {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 124.5%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  /*faq */
+
+  .faq .container {
+    flex-direction: column;
+  }
+  .faq .template-title {
+    font-size: 24px;
+    text-align: center;
+    flex-direction: column;
+    font-weight: 700;
+  }
+  .faq-label {
+    margin-top: 28px;
+  }
+  .cooperation-img {
+    max-width: 335px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .cooperation-btn {
+    max-width: 335px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  /* contats */
+
+  .contacts-adress {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 162.5%;
+    text-align: center;
+    color: #ffffff;
+  }
+  .contacts-column h2 {
+    display: none;
+  }
+}

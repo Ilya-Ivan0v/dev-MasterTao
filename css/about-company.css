@@ -1,0 +1,30 @@
+.about-company h2 {
+  display: flex;
+  margin-top: 145px;
+  text-align: center;
+}
+
+.container .about-company .template-title::before {
+  background: #89c249;
+  margin-left: -560px;
+}
+
+.about-company-row {
+  display: flex;
+}
+.about-company-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 170%;
+  color: var(--color-text);
+  padding-right: 35px;
+  font-family: var(--primary-font);
+}
+
+.about-company-row img {
+  margin-top: -91px;
+  max-width: 550px;
+  width: 550px;
+  height: 100%;
+  filter: var(--mt-drop-shadow);
+}

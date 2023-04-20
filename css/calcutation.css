@@ -1,0 +1,199 @@
+.calculation {
+  padding: var(--section-padding);
+}
+.calculation .container {
+  display: flex;
+}
+.calculation .row {
+  filter: var(--mt-drop-shadow);
+}
+.calculation-title {
+  font-size: var(--title-font-size);
+  font-family: var(--primary-font);
+  color: var(--color-text);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 124.5%;
+  text-transform: uppercase;
+}
+.calculation-form {
+  max-width: 650px;
+  width: 100%;
+}
+label {
+  color: var(--color-text);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 126%;
+  font-family: var(--primary-font);
+  padding: 0 9px;
+  margin-bottom: 6px;
+}
+.calculation-title::after {
+  content: "";
+  width: 85px;
+  height: 26px;
+  margin-left: 10;
+  background: #89c249;
+  display: inline-flex;
+  background-image: repeating-linear-gradient(
+    360deg,
+    transparent 12px 14px,
+    #282b38 12px 44px
+  );
+}
+
+.calculation .row {
+  background: #363a4d;
+  border-radius: 20px;
+  padding: 50px 35px 50px;
+}
+
+.calculation.row .col-md-6 {
+  padding: 0 30px;
+}
+
+.calculation .input-row {
+  margin-bottom: 20px;
+}
+.img-Calculation {
+  width: 625px;
+  height: 917px;
+}
+.input-row input {
+  width: 100%;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 120%;
+  padding: 19px 20px;
+  border-radius: 10px;
+  border: none;
+  font-family: var(--primary-font);
+}
+.input-row input::placeholder {
+  color: #cbcbcb;
+}
+.input-row input:focus-visible {
+  outline: none;
+}
+.input-row input:focus {
+  background-color: #ffffff;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* checkbox */
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+.check-box-row {
+  display: block;
+  margin-bottom: 9px;
+  padding-left: 20px;
+}
+
+.check-box-row input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.check-box-row label {
+  position: relative;
+  cursor: pointer;
+}
+
+.check-box-row label:before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+  width: 24px;
+  height: 24px;
+  background: #ffffff;
+  border: 1px solid #282b38;
+  border-radius: 4px;
+  position: absolute;
+  left: -20px;
+  top: 0;
+}
+
+.check-box-row input:checked + label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: -10px;
+  width: 6px;
+  height: 14px;
+  border: solid #282b38;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* inputfile */
+
+.file-container {
+  margin-top: 14px;
+  margin-bottom: 14px 0 26px;
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.file-name {
+  color: var(--color-text);
+  margin-bottom: 12px;
+}
+.inputfile + label {
+  width: 100%;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 10px;
+  height: 43px;
+  padding: 12px 0 17px 0;
+}
+.no-js .inputfile + label {
+  display: none;
+}
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+  opacity: 0.7;
+  border: 1px dashed rgba(255, 255, 255, 0.26);
+}
+
+.inputfile-1 + label {
+  color: var(--color-text);
+  border: 1px dashed rgba(255, 255, 255, 0.26);
+}
+
+.inputfile-1:focus + label,
+.inputfile-1.has-focus + label,
+.inputfile-1 + label:hover {
+  color: var(--color-text);
+}
+.calculation-decoration {
+  max-width: 625px;
+  width: 100%;
+  margin-left: -30px;
+  position: relative;
+  top: 100px;
+}
